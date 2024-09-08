@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <style>
+        body{
+            background: linear-gradient(45deg,#240165,#05001c);
+            color: antiquewhite;
+        }
+        .time{
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0px;
+
+        }
+        .data{
+            direction: rtl; 
+        }
+        .alfagr{
+            background-color: antiquewhite;
+            width: 12%;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            padding:20px 0px ;
+
+        }
+        h3{
+            background-color: #240165;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            border-radius: 20px;
+            border-bottom-left-radius:0px ;
+            border-bottom-right-radius: 0px;
+           margin-top: -20px;
+        }
+        .city{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 261px;
+        }
+       .alfagr p{
+            margin-top: -3px;
+        }
+        h1{
+            font-size: 65px;
+            /* margin-bottom: 10px; */
+        }
+        .date{
+            font-size: 21px;
+        }
+    </style>
+</head>
+<body >
+
+    <div class="data">
+        <h1 class="city-name">سوهاج</h1>
+        <p class="date"> 8 سبتمبر2024</p>
+        <hr>
+    </div>
+    <div class="time">
+       
+      <div class="alfagr">
+            <h3>العشاء</h3>
+            <p class="isha">4:30</p>
+        </div>
+        <div class="alfagr">
+            <h3>المغرب</h3>
+            <p class="Maghrib">4:30</p>
+        </div>
+        <div class="alfagr">
+            <h3>العصر</h3>
+            <p class="Asr">4:30</p>
+        </div>
+        <div class="alfagr">
+            <h3>الظهر</h3>
+            <p class="Dhuhr">4:30</p>
+        </div> 
+        <div class="alfagr">
+            <h3>الشروق</h3>
+            <p class="sunset">4:30</p>
+        </div>
+        <div class="alfagr">
+            <h3>الفجر</h3>
+            <br>
+            <br>
+            <p class="fajer">4:30</p>
+        </div>
+       
+        
+        
+        
+
+    </div>
+    <div class="city">
+        <label for="">choose city</label><br>
+        <select name="city" id="city" style="background: none; width: 200px; border-radius: 10px; color: aliceblue;">
+       
+           
+        </select>
+        
+        
+       
+    </div>
+    <!-- <div class="arwa"></div> -->
+    <script src="main.js"></script>
+</body>
+</html>
